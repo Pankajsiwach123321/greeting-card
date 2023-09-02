@@ -1,0 +1,63 @@
+:root {
+    --fs-sm: 16px;
+    --fs-md: 77.538px;
+    /* font-weight: ; */
+    --fw-sm: 400;
+    --fw-md: 500;
+    /* color */
+    --color-primary: #737B9A;
+    --color-secandary: #252930;
+    --bg-button: #4D73F8;
+    --color-simple: #fff;
+    /* --font-family */
+    --font-one: 'Yellowtail', cursive;
+    --font-main: 'Poppins', sans-serif;
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fw-sm {
+    font-weight: var(--fw-sm);
+}
+
+.fw-md {
+    font-weight: var(--fw-md);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secandary {
+    color: var(--color-secandary);
+}
+
+.color-simple {
+    color: var(--color-simple);
+}
+
+.bg-button {
+    background: var(--bg-button);
+}
+
+/* .bg-simple {
+    background: var(--bg-button);
+}
+
+.color-button {
+    color: var(--color-simple);
+} */
+
+.font-one {
+    font-family: var(--font-one);
+}
+
+.font-main {
+    font-family: var(--font-main);
+}
